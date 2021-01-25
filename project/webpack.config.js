@@ -10,8 +10,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
-    // warn: set to true for watcher to see Logger
-    symlinks: false,
+    // warn: set to false for aliases to work inside Logger
+    symlinks: true,
+    alias: {
+      generated: 'package/generated',
+    },
   },
   optimization: {
     runtimeChunk: 'single',

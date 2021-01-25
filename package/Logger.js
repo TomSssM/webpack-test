@@ -1,3 +1,7 @@
+import { someFunction } from 'generated';
+
+someFunction();
+
 export class Logger {
   log() {
     document.body.append(this.createElement());
