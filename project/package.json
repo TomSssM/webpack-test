@@ -1,0 +1,23 @@
+{
+  "name": "webpack-aliases",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "python -m SimpleHTTPServer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.5.1",
+    "webpack": "5.10.3",
+    "webpack-cli": "4.2.0"
+  },
+  "dependencies": {
+    "package": "file:../package"
+  }
+}
